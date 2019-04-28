@@ -1,0 +1,60 @@
+{
+  "name": "KPUtilsModule",
+  "version": "0.1.0",
+  "summary": "A short description of KPUtilsModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wuchengmiao/KPUtilsModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wuchengmiao": "545250875@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wuchengmiao/KPUtilsModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KPUtilsModule/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "AlterTool",
+      "source_files": "KPUtilsModule/Classes/AlterTool/*"
+    },
+    {
+      "name": "ArithmeticUtil",
+      "source_files": "KPUtilsModule/Classes/ArithmeticUtil/*"
+    },
+    {
+      "name": "Categorys",
+      "source_files": "KPUtilsModule/Classes/Categorys/*"
+    },
+    {
+      "name": "Deviceinfo",
+      "source_files": "KPUtilsModule/Classes/Deviceinfo/*"
+    },
+    {
+      "name": "GetCurrentVC",
+      "source_files": "KPUtilsModule/Classes/GetCurrentVC/*"
+    },
+    {
+      "name": "KeychainIDeviceNum",
+      "source_files": "KPUtilsModule/Classes/KeychainIDeviceNum/*"
+    },
+    {
+      "name": "TextLimitTool",
+      "source_files": "KPUtilsModule/Classes/TextLimitTool/*"
+    },
+    {
+      "name": "TimeTool",
+      "source_files": "KPUtilsModule/Classes/TimeTool/*"
+    },
+    {
+      "name": "UserDefaultsTool",
+      "source_files": "KPUtilsModule/Classes/UserDefaultsTool/*"
+    }
+  ]
+}
