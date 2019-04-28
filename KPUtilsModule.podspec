@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KPUtilsModule'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of KPUtilsModule.'
 
 # This description is used to generate tags and improve search results.
@@ -21,17 +21,57 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wuchengmiao/KPUtilsModule'
+  s.homepage         = 'https://github.com/545250875/KPUtilsModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wuchengmiao' => '545250875@qq.com' }
-  s.source           = { :git => 'https://github.com/wuchengmiao/KPUtilsModule.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/545250875/KPUtilsModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'KPUtilsModule/Classes/**/*'
-  
+
+    #-----------------文件分级---------------------#
+
+    s.subspec 'AlterTool' do |ss|
+    ss.source_files = 'KPUtilsModule/Classes/AlterTool/*'
+    end
+
+    s.subspec 'ArithmeticUtil' do |ss|
+    ss.source_files = 'KPUtilsModule/Classes/ArithmeticUtil/*'
+    end
+
+    s.subspec 'Categorys' do |ss|
+    ss.source_files = 'KPUtilsModule/Classes/Categorys/*'
+    end
+
+    s.subspec 'Deviceinfo' do |ss|
+    ss.source_files = 'KPUtilsModule/Classes/Deviceinfo/*'
+    end
+
+    s.subspec 'GetCurrentVC' do |ss|
+    ss.source_files = 'KPUtilsModule/Classes/GetCurrentVC/*'
+    end
+
+    s.subspec 'KeychainIDeviceNum' do |ss|
+    ss.source_files = 'KPUtilsModule/Classes/KeychainIDeviceNum/*'
+    end
+
+    s.subspec 'TextLimitTool' do |ss|
+    ss.source_files = 'KPUtilsModule/Classes/TextLimitTool/*'
+    end
+
+    s.subspec 'TimeTool' do |ss|
+    ss.source_files = 'KPUtilsModule/Classes/TimeTool/*'
+    end
+
+    s.subspec 'UserDefaultsTool' do |ss|
+    ss.source_files = 'KPUtilsModule/Classes/UserDefaultsTool/*'
+    end
+
+
+
   # s.resource_bundles = {
   #   'KPUtilsModule' => ['KPUtilsModule/Assets/*.png']
   # }
