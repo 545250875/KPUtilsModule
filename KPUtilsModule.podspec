@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KPUtilsModule'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of KPUtilsModule.'
 
 # This description is used to generate tags and improve search results.
@@ -30,11 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  # s.source_files = 'KPUtilsModule/Classes/**/*'
+
+    #s.source_files = 'KPUtilsModule/Classes/**/*'
 
 
+    s.source_files = 'KPUtilsModule/Classes/*'
 
-   #  s.source_files = 'KPUtilsModule/Classes/*'
 
     #-----------------文件分级---------------------#
 
