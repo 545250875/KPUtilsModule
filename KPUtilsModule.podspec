@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KPUtilsModule'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '项目常用的 工具类 + 分类'
 
 # This description is used to generate tags and improve search results.
@@ -41,10 +41,6 @@ TODO: Add long description of the pod here.
 
     s.subspec 'AlterTool' do |ss|
     ss.source_files = 'KPUtilsModule/Classes/AlterTool/*'
-    end
-
-    s.subspec 'ArithmeticUtil' do |ss|
-    ss.source_files = 'KPUtilsModule/Classes/ArithmeticUtil/*'
     end
 
     s.subspec 'Categorys' do |ss|
