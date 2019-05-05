@@ -7,6 +7,9 @@
 //
 
 #import "MGViewController.h"
+#import "UIView+Toast.h"
+#import "ProgressHUDManager.h"
+
 
 @interface MGViewController ()
 
@@ -25,5 +28,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    
+    [ProgressHUDManager showImageError:@"哇哈哈哈"];
+    
+}
+
+
 
 @end

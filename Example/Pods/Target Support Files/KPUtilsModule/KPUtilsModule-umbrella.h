@@ -31,6 +31,7 @@
 #import "GetCurrentViewController.h"
 #import "KeychainHelper.h"
 #import "KeychainIDFA.h"
+#import "ProgressHUDManager.h"
 #import "SDTextLimitTool.h"
 #import "TimeFormatTool.h"
 #import "UserDefaultsTools.h"

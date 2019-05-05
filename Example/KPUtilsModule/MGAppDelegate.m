@@ -7,12 +7,17 @@
 //
 
 #import "MGAppDelegate.h"
+#import "ProgressHUDManager.h"
 
 @implementation MGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    
+    [[ProgressHUDManager sharedInstance]initProgressHUDStyle];
+    
     return YES;
 }
 

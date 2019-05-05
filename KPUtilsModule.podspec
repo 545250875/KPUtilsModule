@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KPUtilsModule'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '项目常用的 工具类 + 分类'
 
 # This description is used to generate tags and improve search results.
@@ -71,13 +71,24 @@ TODO: Add long description of the pod here.
     ss.source_files = 'KPUtilsModule/Classes/UserDefaultsTool/*'
     end
 
+    s.subspec 'ProgressHUDManagerTool' do |ss|
+    ss.source_files = 'KPUtilsModule/Classes/ProgressHUDManagerTool/*'
+    end
 
 
-  # s.resource_bundles = {
-  #   'KPUtilsModule' => ['KPUtilsModule/Assets/*.png']
-  # }
+
+   s.resource_bundles = {
+     'KPUtilsModule' => ['KPUtilsModule/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+    s.dependency 'Toast', '~> 4.0.0'
+    s.dependency 'SVProgressHUD', '2.0.3'
+    s.dependency 'FFToast', '~> 1.2.0'
+
+
+
 end
